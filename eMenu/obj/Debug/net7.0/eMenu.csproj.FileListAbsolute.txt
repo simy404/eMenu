@@ -257,3 +257,10 @@ C:\Users\Hakan\source\repos\eMenu\eMenu\obj\Debug\net7.0\refint\eMenu.dll
 C:\Users\Hakan\source\repos\eMenu\eMenu\obj\Debug\net7.0\eMenu.pdb
 C:\Users\Hakan\source\repos\eMenu\eMenu\obj\Debug\net7.0\eMenu.genruntimeconfig.cache
 C:\Users\Hakan\source\repos\eMenu\eMenu\obj\Debug\net7.0\ref\eMenu.dll
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\libman.json
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Hakan\source\repos\eMenu\eMenu\obj\Debug\net7.0\eMenu.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Hakan\source\repos\eMenu\eMenu\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

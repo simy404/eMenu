@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj": {}
+    "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj": {
+    "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj",
+        "projectUniqueName": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj",
         "projectName": "eMenu",
-        "projectPath": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj",
+        "projectPath": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj",
         "packagesPath": "C:\\Users\\Hakan\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\obj\\",
         "projectStyle": "PackageReference",
@@ -40,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"

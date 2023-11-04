@@ -1,0 +1,50 @@
+﻿@model eMenu.Models.ViewModels.AppUserViewModel
+
+<section class="book_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2 style="color:white">
+                SignIn
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form_container" style="color:white" >
+                    <form asp-action="SignIn">
+                        <table class="col-md-12">
+                            <tr>
+                                <td>
+                                    <input type="text" class="form-control" placeholder="UserName" asp-for="UserName">
+                                </td>
+                                <td>
+                                    <span asp-validation-for="UserName"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+                                </td>
+                                <td>
+                                    <span asp-validation-for="Email"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                                </td>
+                                <td>
+                                    <span asp-validation-for="Password"></span>
+                                </td>
+                            </tr>
+                        </table>
+                            <div class="btn_box">
+                                <button type="submit">
+                                    SignIn
+                                </button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,53 @@
+﻿@model eMenu.Models.ViewModels.LoginViewModel
+
+<section class="book_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <h2 style="color:white">
+                Login
+            </h2>
+        </div>
+        
+        <div class="row">   
+            <div class="col-md-12">
+                <div class="form_container" style="color:white">
+                    <form asp-action="Login">
+                        <table class="col-md-6">
+                            <tr>
+                                <td>
+                                    <input type="email" class="form-control" placeholder="Email" asp-for="Email">
+                                </td>
+                                <td>
+                                    <span asp-validation-for="Email"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+                                </td>
+                                <td>
+                                    <span asp-validation-for="Password"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="form-check-label" asp-for="Persistent"></label>
+                                    <input class="form-check-input ms-2" type="checkbox" asp-for="Persistent" />
+                                </td>
+                                <td>
+                                    <span asp-validation-for="Persistent"></span>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="btn_box">
+                            <button type="submit">
+                                Login
+                            </button>
+                        </div>
+                        <div asp-validation-summary="All" class="mt-5"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
