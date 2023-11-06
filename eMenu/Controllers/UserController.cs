@@ -66,7 +66,7 @@ namespace eMenu.Controllers
 							if (result.IsLockedOut)
 								ModelState.AddModelError("Locked", "Your account has been locked for 1 minute due to 3 consecutive failed login attempts.");
 							else
-								ModelState.AddModelError("NotUser2", "Email or password incorrect.");
+								ModelState.AddModelError("NotUser2", "Email or password incorrect.");	
 						}
 
 					}

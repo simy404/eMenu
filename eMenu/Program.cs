@@ -1,6 +1,7 @@
 using eMenu.AutoMappers;
 using eMenu.Models.Authentication;
 using eMenu.Models.Context;
+using eMenu.Models.Validators;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +41,7 @@ namespace eMenu
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
-			builder.Services.AddFluentValidationAutoValidation();
+			builder.Services.AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<AppUserValidator>());
 
 			builder.Services.AddAutoMapper(typeof(MappingProfile));
 

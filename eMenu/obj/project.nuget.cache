@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XLBQDS4vufK1D/YbaofPQ1i3Y7pTnhvF3LHpdkQFIEaLC9oZOrRDKTYmw3uQ6nGm5M0q1+PKFr34BgZ2JDolNA==",
+  "dgSpecHash": "QYVzSrJ1FSbss0cCmgYJriR4k+RnMzXEW7+jzOrG4+4iEuL6UafJm8DmtupM1OKfA7eJkTguRWC2T86zkz9kJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj",
+  "projectFilePath": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hakan\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Hakan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

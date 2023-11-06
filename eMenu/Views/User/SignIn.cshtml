@@ -8,35 +8,34 @@
             </h2>
         </div>
         <div class="row">
-            <div class="col-md-6">
-                <div class="form_container" style="color:white" >
+            <div class="col-md-10">
+                <div class="form_container" style="color:white">
                     <form asp-action="SignIn">
-                        <table class="col-md-12">
-                            <tr>
-                                <td>
+                            <div class="row form-group">
+                                <div class="col-md-6">
                                     <input type="text" class="form-control" placeholder="UserName" asp-for="UserName">
-                                </td>
-                                <td>
+                                </div>
+                                <div class="col-md-6">
                                     <span asp-validation-for="UserName"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="email" class="form-control" placeholder="Email" asp-for="Email">
-                                </td>
-                                <td>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control " placeholder="Email" asp-for="Email">
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center">
                                     <span asp-validation-for="Email"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
                                     <input type="password" class="form-control" placeholder="Password" asp-for="Password">
-                                </td>
-                                <td>
+                                </div>
+                                <div class="col-md-6">
                                     <span asp-validation-for="Password"></span>
-                                </td>
-                            </tr>
-                        </table>
+                                </div>
+                            </div>
+
                             <div class="btn_box">
                                 <button type="submit">
                                     SignIn

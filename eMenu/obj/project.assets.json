@@ -11841,19 +11841,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hakan\\.nuget\\packages\\": {}
+    "C:\\Users\\Hakan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj",
+      "projectUniqueName": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj",
       "projectName": "eMenu",
-      "projectPath": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\eMenu.csproj",
+      "projectPath": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\eMenu.csproj",
       "packagesPath": "C:\\Users\\Hakan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hakan\\source\\repos\\eMenu\\eMenu\\obj\\",
+      "outputPath": "C:\\Users\\Hakan\\source\\repos\\EMenu\\eMenu\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Hakan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11861,6 +11866,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

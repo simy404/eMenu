@@ -12,42 +12,44 @@
             <div class="col-md-12">
                 <div class="form_container" style="color:white">
                     <form asp-action="Login">
-                        <table class="col-md-6">
-                            <tr>
-                                <td>
+                        <div class="row form-group">
+                            <div class="row form-group">
+                                <div class="col-md-6">
                                     <input type="email" class="form-control" placeholder="Email" asp-for="Email">
-                                </td>
-                                <td>
-                                    <span asp-validation-for="Email"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
+                                </div>
+                                    <div class="col-md-6">
+                                        <span asp-validation-for="Email"></span>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
                                     <input type="password" class="form-control" placeholder="Password" asp-for="Password">
-                                </td>
-                                <td>
+                                </div>
+                                <div class="col-md-6">
                                     <span asp-validation-for="Password"></span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-md-6">
                                     <label class="form-check-label" asp-for="Persistent"></label>
                                     <input class="form-check-input ms-2" type="checkbox" asp-for="Persistent" />
-                                </td>
-                                <td>
-                                    <span asp-validation-for="Persistent"></span>
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="btn_box">
-                            <button type="submit">
-                                Login
-                            </button>
+                                </div>
+                                    <div class="col-md-6">
+                                        <span asp-validation-for="Persistent"></span>
+                                    </div>
+                            </div>
+                            <div class="btn_box">
+                                <button type="submit">
+                                    Login
+                                </button>
+                            </div>
                         </div>
-                        <div asp-validation-summary="All" class="mt-5"></div>
+                            <div asp-validation-summary="All" class="mt-5"></div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
